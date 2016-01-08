@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Pembelajaran Glossary</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+		
+		<style type="text/css">
+.chkans {
+margin:10px 10px -5px 0;
+}
+
+span.chkans {
+position:relative;
+top:5px
+}
+
+* html span.chkans {
+top:2px
+}
+</style>
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" style="background-image: url('images/ri.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" data-theme="b">
+            <div data-role="header">
+                <h1>Glossary</h1>
+            </div>
+			<div data-role="content">
+               <marquee ><center> <h2> <font color="14357">SELAMAT DATANG DI MODUL PEMBELAJARAN GLOSSARY PADA MOODLE</font></h2> </center></marquee>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2" style="background-image: url('images/ri.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;"
+        data-theme="b" >
+            <div data-role="header">
+                <h1>Menu Glossary</h1>
+            </div>
+			<div data-role="content">
+                <ul data-role="listview" data-inset="true">
+                    <li data-theme="a">
+                        <a href="#page5"><img src = "images/pen.png" class="ui-li-thumb" width="120" height="120">Materi</a>
+                    </li>
+                    <li data-theme="a">
+                        <a href="#page4"><img src = "images/art.png" class="ui-li-thumb" width="120" height="120">Pengertian</a>
+                    </li>
+                    <li data-theme="a">
+                        <a href="#page6"><img src = "images/kb.png" class="ui-li-thumb" width="120" height="120">Cara Membuat</a>
+                    </li>
+					<li data-theme="a">
+                        <a href="video.html" rel="external"><img src = "images/vid.png" class="ui-li-thumb" width="120" height="120">Video Tutorial</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3" style="background-image: url('images/bg.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" data-theme="b" >
+            <div data-role="header">
+                <h1>Pendahuluan</h1>
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+                <span><h2>Tujuan pembelajaran:</h2></span>
+                <p><h4>Peserta dapat menjelaskan bagaimana cara menggunakan Glossary pada Moodle</h4></p>
+                <span><h4>Kegiatan Belajar : Tutorial membuat Glossary</h4></span>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page4" style="background-image: url('images/bg.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" data-theme="b">
+            <div data-role="header">
+                <h1>Pengertian</h1>
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+                <span><h4>Glossary merupakan daftar istilah atau daftar kata penting seperti kamus yang berada pada moodle. Pada aktifitas glossary ini peserta dapat membuat dan mengupdate daftar definisi dan istilah yang ada di kamus. Daftar kata dapat diakses dalam berbagai format. Glossary dapat dikolaborasikan antar dosen dan mahasiswa. Daftar kata dapat diletakkan dalam beberapa kategori.</h4></span>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page5" style="background-image: url('images/bg.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" data-theme="b">
+            <div data-role="header">
+                <h1>Kegiatan Belajar</h1>
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+                <h2><span>Membuat Glossary Pada Moodle</span></h2>
+                <h3><p>Tujuan Pembelajaran :</p></h3>
+                <h4><span>Dapat membuat glossary pada moodle</span></h4>
+                <h3><p>Pokok Materi :</p></h3>
+                <h4><span>Membuat Glossary</span></h4>
+                <h3><p>Uraian Materi :</p></h3>
+                <h4><span>Langkah-langkah membuat Glossary pada Moodle</span></h4>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page6" style="background-image: url('images/bg.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" data-theme="b">
+            <div data-role="header">
+                <h1>Langkah-langkah Membuat Glossary</h1>
+                <a data-role="button" href="#page5" data-icon="arrow-l"
+                data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+				<h3><font color="0000">1. Klik Tombol Turn Editing ON</font></h3><br>
+				<img src="images/1.png" width="120" height="70" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">2. Klik Tombol Add an activity or resource</font></h3><br>
+				<img src="images/2.png" width="200" height="70" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">3. Klik gambar Glossary kemudian Klik Add</font></h3><br>
+				<img src="images/3.png" width="300" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">4. Setelah itu maka akan masuk ke halaman glossarium baru. Kemudian masukkan nama di kolom Name, Masukkan beberapa Keterangan yang menunjukkan bagaimana glossary tersebut akan digunakan, Pilih jenis Glosarium. </font></h3><br>
+				<img src="images/4.png" width="350" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">5. Pilih Entri yang anda inginkan dengan Yes atau No</font></h3><br>
+				<img src="images/5.png" width="300" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">6. Pilih Format tampilan dibawah ini yang paling tepat</font></h3><br>
+				<img src="images/6.png" width="350" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">7. Jika Anda ingin menilai entri glossary pilih jenis agregat dan jika ingin Membatasi peringkat ke entri kontribusikan dalam rentang tanggal yang sesuai seperti gambar dibawah ini</font></h3><br>
+				<img src="images/7.png" width="430" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">8. Kemudian Klik Save and Display</font></h3><br>
+				<img src="images/8.png" width="450" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">9. Setelah itu mengisi glossary, yaitu dengan cara menulis istilah penting di kolom concept, kemudian di kolom definition berisikan definisi dari kata yang ditulis, selanjutnya tekan save changes untuk menyimpan kata tersebut.</font></h3><br>
+				<img src="images/9.png" width="450" height="300" style="display: block; margin: 0 auto"/><br>
+				<h3><font color="0000">10. Setelah semua langkah-langkah diatas selesai maka glossary yang telah dibuat sudah bisa digunakan. </font></h3><br>
+			</div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page7">
+            <div data-role="header">
+                <h1>Video Tutorial</h1>
+                <a data-role="button" href="#page2" data-icon="arrow-l" data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/129LUmA3z2g" frameborder="0" allowfullscreen></iframe>
+			</div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page9" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="dialog" id="page9">
+            <div data-role="header">
+                <h1>Contact</h1>
+            </div>
+            <div data-role="content">
+			 <marquee ><center> <h3>TERIMAKASIH TELAH MEMBACA MODUL PEMBELAJARAN GLOSSARY </h3> </center></marquee>
+                <img src="images/boy.png" width="270" height="270" style="display: block; margin: 0 auto"
+                />
+                <h2>PROFIL</h2>
+                <table>
+                	<tr>
+                		<td><h3>Nama</h3></td>
+                		<td><h3>: Irvan Agung Santosa</h3></td>
+                	</tr>
+                	<tr>
+                		<td><h3>NIM</h3></td>
+                		<td><h3>: 1112028</h3></td>
+                	</tr>
+                	<tr>
+                		<td><h3>Kelas</h3></td>
+                		<td><h3>: TI 42</h3></td>
+                	</tr>
+                </table>
+				
+            </div>
+        </div>
+    </body>
+
+</html>

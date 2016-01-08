@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"
+        />
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+        
+        <style type="text/css">
+.chkans {
+margin:10px 10px -5px 0;
+}
+
+span.chkans {
+position:relative;
+top:5px
+}
+
+* html span.chkans {
+top:2px
+}
+</style>
+    </head>
+    
+    <body>
+    <div data-role="page" id="page7" style="background-image: url('images/bg.png'); background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;">
+            <div data-role="header">
+                <h1>Video Tutorial</h1>
+                <a data-role="button" href="index.html#page2" rel="external" data-icon="arrow-l" data-theme="a">Back</a>
+            </div>
+            <div data-role="content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/129LUmA3z2g" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="index.html" rel="external" data-icon="home">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="index.html#page2" rel="external" data-icon="grid">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="index.html#page9" rel="external" data-icon="info" data-transition="slideup" data-transition="slideup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </body>
+
+</html>
